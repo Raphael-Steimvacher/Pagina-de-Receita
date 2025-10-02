@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root{
     font-family: "Alice", serif;
     color: #573A37;
@@ -20,18 +25,40 @@ body{
   border-radius: 24px;
 }
 
+main{
+  padding: 24px;
+}
+
 img {
   border-radius: 16px;
+}
+
+p + p{
+  margin-top: 8px;
+}
+
+#ingredients{
+  margin-top: 24px;
+}
+
+ul{
+  margin-left: 32px;
+}
+
+#prepation{
+  margin-top: 24px;
 }
 
 h1{
   color: #291B1A;
   font-size: 40px;
   line-height: 140%;
+  margin-bottom: 4px;
 }
 
 h2{
   font-size: 24px;
   color: #291B1A;
   line-height: 140%;
+  margin-bottom: 6px;
 }
